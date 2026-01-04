@@ -258,7 +258,14 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="py-12 border-t border-slate-200 bg-slate-50 text-center">
-       
+        <div className="max-w-4xl mx-auto px-4 space-y-4">
+          {/* <Image 
+            src="/logo-white.png" 
+            alt="Kedai Obat Lapar Logo" 
+            width={64} 
+            height={64} 
+            className="w-16 h-16 mx-auto opacity-50 object-contain"
+          /> */}
           <p className="font-serif text-slate-500">
             &copy; {new Date().getFullYear()} Kedai Obat Lapar. All rights reserved.
           </p>
